@@ -1,0 +1,7 @@
+[16,21,11,8,12,22] serisini merge sort ile yaptığımızda ilk önce bu [16,21,11] ve [8,12,22] serilerine ayrılacaktır
+sonra bunlar [16] [21,11] [8,12] ve [22] olacak
+sonra bunlar [16] [21] [11] [8] [12] ve [22] olacak
+sonra [16] [11,21] [8,12] [22]
+sonra [11,16,21] [8,12,22]
+ve en sonunda [8,11,12,16,21,22] olacaktır
+Big O nlogn
